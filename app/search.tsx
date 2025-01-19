@@ -250,7 +250,7 @@ export default function SearchScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#e6f3ff',
+    backgroundColor: '#fff',
     padding: 16,
   },
   title: {
@@ -290,7 +290,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   listContainer: {
-    flexGrow: 1,
+    padding: 16,
   },
   bookCard: {
     backgroundColor: '#fff',
@@ -298,7 +298,7 @@ const styles = StyleSheet.create({
     padding: 16,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: '#eee',
+    borderColor: 'black',
     shadowColor: '#000',
     shadowOffset: {
       width: 0,

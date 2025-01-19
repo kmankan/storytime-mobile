@@ -200,7 +200,7 @@ export default function DiscoverScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Popular Books</Text>
+      <Text style={styles.title}>most popular books</Text>
       <FlatList
         data={popularBooks}
         renderItem={renderBookItem}
@@ -223,7 +223,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   title: {
-    fontSize: 24,
+    fontSize: 32,
     fontWeight: 'bold',
     textAlign: 'center',
     marginVertical: 16,
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
     padding: 16,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: '#eee',
+    borderColor: 'black',
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
